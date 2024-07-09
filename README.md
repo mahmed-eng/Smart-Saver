@@ -41,5 +41,5 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 Feel free to reach out with any questions or feedback!
 
 ## Preview
-![SmartSaver Preview 1](0.png)
+![SmartSaver Preview 1](0.PNG)
 
