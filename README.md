@@ -27,7 +27,7 @@ The purpose of SmartSaver is to:
 
 ## Getting Started
 
-To use SmartSaver, simply [visit the live demo link or provide installation instructions if applicable].
+To use SmartSaver, simply visit https://github.com/mahmed-eng/Smart-Saver.git
 
 ## Contributing
 
