@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SmartSaver - Conveying intelligence in saving money through smart shopping decisions</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #3498db; /* Light blue background color */
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .tagline {
+    font-style: italic;
+    color: #666;
+  }
+  .tiles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  .tile {
+    background-color: #fff; /* White tile background */
+    color: #333; /* Dark text color */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease;
+  }
+  .tile:hover {
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+  .tile h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #3498db; /* Matching tile color */
+  }
+  .tile p {
+    font-size: 16px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header class="header">
+    <h1 style="color: #fff;">SmartSaver</h1> <!-- White text color -->
+    <p class="tagline" style="color: #f0f0f0;">Conveying intelligence in saving money through smart shopping decisions.</p> <!-- Light gray text color -->
+  </header>
+  <div class="tiles">
+    <div class="tile" onclick="navigateTo('savings-tracker.html')">
+      <h2>Savings Tracker</h2>
+      <p>Track your savings and spending habits with interactive charts and graphs.</p>
+    </div>
+    <div class="tile" onclick="navigateTo('deal-finder.html')" style="background-color: #e74c3c;"> <!-- Red tile background -->
+      <h2>Deal Finder</h2>
+      <p>Find the best deals and discounts from your favorite stores and online retailers.</p>
+    </div>
+    <div class="tile" onclick="navigateTo('price-alerts.html')" style="background-color: #2ecc71;"> <!-- Green tile background -->
+      <h2>Price Alerts</h2>
+      <p>Set alerts for price drops on products you're interested in and never miss a deal.</p>
+    </div>
+    <div class="tile" onclick="navigateTo('community-tips.html')" style="background-color: #f39c12;"> <!-- Orange tile background -->
+      <h2>Community Tips</h2>
+      <p>Share and discover money-saving tips from a community of savvy shoppers.</p>
+    </div>
+  </div>
+</div>
+
+<script>
+  function navigateTo(url) {
+    window.location.href = url;
+  }
+</script>
+
+</body>
+</html>
